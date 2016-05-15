@@ -66,5 +66,12 @@ if(isset($_POST["command"]) && isset($_POST["token"]) && isset($_POST['text'])) 
  * Check if string contains illegal characters
  */
 function isValid(string $content) {
+	// Note: localhost isn't a legal address in this context. Add checks yourself if needed. Also no 
+	// length check on the address itself. NMAP will fail to scan if address is malformed beyond
+	// these checks
+	if(strlen($content) < 1 || substr_count($content, '.') < 1) {
+		return false;
+	}
+
 	return preg_match('/^[a-zA-Z0-9\.]*$/', $content);
 }

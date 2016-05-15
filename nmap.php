@@ -17,10 +17,11 @@
  * autocomplete list for slash commands.
  * If you do, enter a short description and usage hint.
  *
- * Co-author: reedphish 
- * 
- * Reedphish contact information: 
+ * Contributor: reedphish 
+ * Reedphish contact information and legal: 
  * reedphish@outlook.com>, github.com/reedphish, reedphish.wordpress.com, twitter.com/reedphish
+ * All code contributed by Reedphish is provided as is without any form of guarantees.
+ *
  ***********************************************************************************************/
 
 /**
